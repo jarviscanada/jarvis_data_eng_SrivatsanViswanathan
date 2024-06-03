@@ -9,37 +9,68 @@ using Linux bash scripts to collect the data, PostgreSQL to store the data,
 docker for hosting the database, and Git for version control.
 
 # Quick Start
-### 1. Start a PSQL instance using `psql_docker.sh`
-Create a docker if you don't have one: \
-`./scripts/psql_docker.sh create postgres password`
+### Start a PSQL Instance using `psql_docker.sh`
+Create a docker if you don't have one:
+```
+./scripts/psql_docker.sh create postgres password
+```
 
-Start or stop the PSQL instance: \
-`./scripts/psql_docker.sh start | stop`
+Start or stop the Docker Container:
+```
+./scripts/psql_docker.sh start | stop
+```
 
-### 2. Create tables using `ddl.sql`
-Create and verify the tables: \
-`psql -h localhost -U postgres -d host_agent -f sql/ddl.sql`
+Connect to PSQL Instance:
+```
+psql -h localhost -U postgres -W
+```
+The password is: password
+
+### 2. Create the Tables Using `ddl.sql`
+
+First, connect to the PSQL Instance and create the database:
+```
+CREATE DATABASE host_agent;
+```
+
+Create and verify the tables:
+```
+psql -h localhost -U postgres -d host_agent -f sql/ddl.sql
+```
 
 ### 3. Insert hardware information  database
-Insert hardware specs using `host_info.sh` \
-`./scripts/host_info.sh localhost 5432 host_agent postgres password`
+Insert hardware specs using `host_info.sh` 
 
-Insert hardware usage using `host_usage.sh` \
-`./scripts/host_usage.sh localhost 5432 host_agent postgres password`
+```
+./scripts/host_info.sh localhost 5432 host_agent postgres password
+```
+
+Insert hardware usage using `host_usage.sh`
+```
+./scripts/host_usage.sh localhost 5432 host_agent postgres password
+```
 
 Verify if the data has been entered (will not create a new table as it
-already exists): \
-`psql -h localhost -U postgres -d host_agent -f sql/ddl.sql`
+already exists): 
+```
+psql -h localhost -U postgres -d host_agent -f sql/ddl.sql
+```
 
 ### 4. Setup Crontab to periodically populate the database with hardware usage data
-Make sure you are in the scripts directory and copy the path: \
-`pwd`
+Make sure you are in the scripts directory. Copy the path once you are in there:
+```
+pwd
+```
 
-Open up crontab jobs: \
-`crontab -e`
+Open up crontab jobs:
+```
+crontab -e
+```
 
-Edit the crontab job using the path you obtained: \
-`* * * * * bash [path]/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log`
+Edit the crontab job using the path you obtained:
+```
+* * * * * bash [path]/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log
+```
 
 If you want to stop the crontab job, just remove the job from the 
 crontab file
@@ -64,38 +95,53 @@ periodically running it every minute
 The `psql_docker.sh` script is used to setup a PostgreSQL instance using docker that can be used on a 
 local machine
 
-`./scripts/psql_docker.sh create [username] [password]` Creates a container if it 
-does not exist
+Create a container if it does not exist:
+```
+./scripts/psql_docker.sh create [username] [password]
+```
 
-`./scripts/psql_docker.sh start | stop` Start or stop the container
+Start or stop the container
+```
+./scripts/psql_docker.sh [start | stop]
+```
 
 ### ddl.sql
 The `ddl.sql` script is used to automate the database initialization 
 to eliminate the manual process
 
-`psql -h localhost -U postgres -d host_agent -f sql/ddl.sql` Execute 
-the script on the database
-
+Execute the script on the database:
+```
+psql -h localhost -U postgres -d host_agent -f sql/ddl.sql
+```
 ### host_info.sh
 The `host_info.sh` script is used to collect hardware specs and 
 persist the data into a PostgreSQL instance. This data was only collected
 once.
 
-`./scripts/host_info.sh psql_host psql_port db_name psql_user psql_password`
+Insert hardware info into the table:
+```
+./scripts/host_info.sh psql_host psql_port db_name psql_user 
+```
 
 ### host_usage.sh
 The `host_usage.sh` script is used to collect hardware usage and 
 persist the data into a PostgreSQL instance. This process was automated 
 using Cronjob.
 
-`./scripts/host_usage.sh psql_host psql_port db_name psql_user psql_password`
+Insert hardware usage into the table:
+```
+./scripts/host_usage.sh psql_host psql_port db_name psql_user psql_password
+```
 
 ### Crontab
 Crontab allows you to schedule commands to be executed periodically at 
 a fixed interval. It was used to run the `host_usage.sh` script every 
 minute
 
-`* * * * * bash [path to scripts]/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log`
+Create Cron Job:
+```
+* * * * * bash [path to scripts]/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log
+```
 
 ## Database Modeling
 ### Table: `host_info`
