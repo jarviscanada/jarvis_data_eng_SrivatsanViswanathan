@@ -9,7 +9,7 @@ using Linux bash scripts to collect the data, PostgreSQL to store the data,
 docker for hosting the database, and Git for version control.
 
 # Quick Start
-### Start a PSQL Instance using `psql_docker.sh`
+### Start a PSQL Instance Using `psql_docker.sh`
 Create a docker if you don't have one:
 ```
 ./scripts/psql_docker.sh create postgres password
@@ -38,7 +38,7 @@ Create and verify the tables:
 psql -h localhost -U postgres -d host_agent -f sql/ddl.sql
 ```
 
-### 3. Insert hardware information  database
+### 3. Insert Hardware Information Into The Database
 Insert hardware specs using `host_info.sh` 
 
 ```
@@ -56,7 +56,7 @@ already exists):
 psql -h localhost -U postgres -d host_agent -f sql/ddl.sql
 ```
 
-### 4. Setup Crontab to periodically populate the database with hardware usage data
+### 4. Setup Crontab To Periodically Populate The Database With Hardware Usage Data
 Make sure you are in the scripts directory. Copy the path once you are in there:
 ```
 pwd
