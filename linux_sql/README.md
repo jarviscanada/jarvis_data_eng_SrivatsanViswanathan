@@ -145,7 +145,7 @@ The app was deployed using Github, Docker, and Crontab
 # Improvements
 - An alert mechanism to warn the user based on a threshold they set for 
 free memory
-- Create a graph that contains all the nodes's information so you can 
+- Create a graph that contains all the node's information so you can 
 compare machine data like memory, idle time, and disk availability
 - Create scripts for queries that would provide useful information like
 average idle time and average disk usage
