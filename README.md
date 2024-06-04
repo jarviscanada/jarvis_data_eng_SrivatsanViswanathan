@@ -1,64 +1,47 @@
 # Srivatsan Viswanathan . Jarvis Consulting
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
+Hi, my name is Srivatsan. I am a computer engineering graduate from Toronto Metropolitan University. I enjoy building software  applications to solve problems users have. One of my favourite projects I have worked on is Sweat Rewards. I developed a website  where users can see if they have won a prize draws they entered in and direct them to support resources. The previous website was  slow, difficult to search with, and not very mobile friendly. I decided to enhance user experience by creating a new website that  would solve all these problems. I also created a script that would insert all the winners from an excel file to the database which decreased manual labor. I'm looking for a software developer role where I can leverage my skills and experiences to contribute  to impactful projects and make a positive difference. I am willing to learn anything I do not know and have a strong desire to  continuously expand my knowledge and expertise.
+
 
 ## Skills
 
-**Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
+**Proficient:** Java, JavaScript / TypeScript, React, NodeJs, HTML & CSS, Linux/Bash, MongoDB, RDBMS/SQL, Agile/Scrum, Git, RESTful API
 
-**Competent:** Donec, fermentum, Donec, fermentum, Donec
+**Competent:** Python, Tailwind, Docker, Spring Boot, Google Cloud Platform
 
-**Familiar:** Donec, fermentum, fermentum, fermentum, fermentum
+**Familiar:** Matlab, C, VHDL, LaTeX, Vite
 
 ## Jarvis Projects
 
-Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](https://github.com/jarviscanada/jarvis_data_eng_demo)
+Project source code: [https://github.com/jarviscanada/jarvis_data_eng_SrivatsanViswanathan](https://github.com/jarviscanada/jarvis_data_eng_SrivatsanViswanathan)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/linux_sql)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-
-**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/core_java)]:
-      
-  - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/springboot)]: Not Started
-
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/python_data_anlytics)]: Not Started
-
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/hadoop)]: Not Started
-
-**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/spark)]: Not Started
-
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/cloud_devops)]: Not Started
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SrivatsanViswanathan/tree/master/linux_sql)]: Developed a Linux Cluster Monitoring App to record hardware specifications and monitor resource usages for each node in real time to help the Jarvis Linux Cluster Administration (LCA) team manage their Linux cluster environment. The product is built using Linux bash scripts to collect the data, PostgreSQL to store the data, docker for hosting the database, and Git for version control. The application logs the hardware usage every minute and persists it into the database.
 
 
 ## Highlighted Projects
-**Web app for resturant** [[GitHub](https://github.com/jarviscanada/jarvis_profile_builder)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Autonomous Ping Pong Collector**: Helped design and build an autonomous robot capable of navigating and collecting ping pong balls. Led the training of the robot to recognize and avoid obstacles, achieving a consistent confidence value of over 80%. Utilized PyTorch and Python to train an SSD MobileNet object detection model on a custom-labeled dataset, ensuring precise and reliable object detection.
 
-**Machine Learning**: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Sri's Pucks** [[GitHub](https://github.com/SrivatsanViswanathan/react-hockey-store)]: Created an ecommerce store enabling users to log in, browse, and purchase hockey equipment. Developed the front end using React, with state management handled by Redux for a maintainable codebase. Stored and managed product data on Airtable, and used Netlify Serverless Functions with Node to securely access API keys.
+
+**Bookstore** [[GitHub](https://github.com/SrivatsanViswanathan/bookstore)]: Developed a bookstore application in Java, allowing clients to browse and purchase books while enabling owners to manage inventory. Implemented a loyalty program with classes that reward points for book purchases, enhancing customer engagement and retention.
+
+**Job Tracker** [[GitHub](https://github.com/SrivatsanViswanathan/job-tracker)]: Developed a web application for job application management, allowing users to register, log in, and manage their job applications. Users can add, update, and delete job entries, and track the status of their applications. Built the front end with React, the back end with Node and Express.js, and used MongoDB for storing user credentials and job details.
 
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2020-present)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Software Developer, Jarvis (2024-present)**: Developed software applications for Jarvis using technologies like  Bash, Git, PostgreSQL, and Docker. Worked collaboratively with a team of developers in an Agile environment. Implemented automation scripts, optimized PostgreSQL databases, and containerized applications with Docker for efficient deployment. Ensured code quality through peer reviews and continuous integration contributing to a culture of continuous improvement and high performance.
 
-**Tutor, XYZ Company (2019)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Freelance, Sweatcoin (Jan 2024 - Apr 2024)**: Designed and created a web application that allows users to track their winnings for prize draws they have entered in. Utilized React for the front end, MongoDB to store the winners, and Node and Express.js for the backend. Created a script to persist all the winners from an excel file to MongoDB. Optimized the search functionality by reducing the search time by 92% and reduced website resource by 66%.
 
 
 ## Education
-**XYZ university (2012-2016)**, Bachelor of Applied Sciences, Electrical and Computer Engineering
-- Scholarship
-- Dean's List (2015, 2016): Ut enim ad minim veniam
-- GPA: 3.8/4.0
-
-**XYZ university (2016-2018)**, Master of Engineering, Electrical and Computer Engineering
+**Toronto Metropolitan University (2018-2023)**, Bachelor Engineering, Computer Engineering
 
 
 ## Miscellaneous
-- Udacity Machine Learning (2019)
-- Winner
-- Basketball player
-- Competitive gaming
-- Volunteer, ABC Food bank: Ut enim ad minim veniam
+- Software Fundamentals
+- Volunteer: I volunteer at Parkrun on Saturdays at 9am to help run a 5km run. I've helped with various different tasks like scanning barcodes, recording times, photography, and helping the runners stay on course as a marshal.
+- Running: I am training to run a 5k. I try to go on runs in the morning and am planning on running in Parkrun eventually.
+- Hockey fan: GO LEAFS GO! I'm a big Leafs fan. I am hoping they are able to win a cup in my lifetime as they have not won since 1967...

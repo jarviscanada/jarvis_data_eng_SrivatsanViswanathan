@@ -51,20 +51,26 @@ jarvis_projects:
     git_url: "/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+    description: Developed a Linux Cluster Monitoring App to record hardware specifications and monitor resource usages for each node in real time to help the Jarvis Linux Cluster Administration (LCA) team manage their Linux cluster environment. The product is built using Linux bash scripts to collect the data, PostgreSQL to store the data, docker for hosting the database, and Git for version control. The application logs the hardware usage every minute and persists it into the database.
 
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
     #project name
-  - name: "Web app for resturant"
-    #URL is optional
-    git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-  - name: "Machine Learning"
+  - name: "Autonomous Ping Pong Collector"
     git_url:
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+    description: Helped design and build an autonomous robot capable of navigating and collecting ping pong balls. Led the training of the robot to recognize and avoid obstacles, achieving a consistent confidence value of over 80%. Utilized PyTorch and Python to train an SSD MobileNet object detection model on a custom-labeled dataset, ensuring precise and reliable object detection.
+  - name: "Sri's Pucks"
+    #URL is optional
+    git_url: "https://github.com/SrivatsanViswanathan/react-hockey-store"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Created an ecommerce store enabling users to log in, browse, and purchase hockey equipment. Developed the front end using React, with state management handled by Redux for a maintainable codebase. Stored and managed product data on Airtable, and used Netlify Serverless Functions with Node to securely access API keys.
+  - name: "Bookstore"
+    git_url: "https://github.com/SrivatsanViswanathan/bookstore"
+    description: Developed a bookstore application in Java, allowing clients to browse and purchase books while enabling owners to manage inventory. Implemented a loyalty program with classes that reward points for book purchases, enhancing customer engagement and retention.
+  - name: "Job Tracker"
+    git_url: "https://github.com/SrivatsanViswanathan/job-tracker"
+    description: Developed a web application for job application management, allowing users to register, log in, and manage their job applications. Users can add, update, and delete job entries, and track the status of their applications. Built the front end with React, the back end with Node and Express.js, and used MongoDB for storing user credentials and job details.
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
@@ -75,7 +81,11 @@ professional_experience:
     company: "Jarvis"
     duration: "2024-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: ""
+    description: "Developed software applications for Jarvis using technologies like  Bash, Git, PostgreSQL, and Docker. Worked collaboratively with a team of developers in an Agile environment. Implemented automation scripts, optimized PostgreSQL databases, and containerized applications with Docker for efficient deployment. Ensured code quality through peer reviews and continuous integration contributing to a culture of continuous improvement and high performance."
+  - title: "Freelance"
+    company: "Sweatcoin"
+    duration: "Jan 2024 - Apr 2024"
+    description: "Designed and created a web application that allows users to track their winnings for prize draws they have entered in. Utilized React for the front end, MongoDB to store the winners, and Node and Express.js for the backend. Created a script to persist all the winners from an excel file to MongoDB. Optimized the search functionality by reducing the search time by 92% and reduced website resource by 66%."
 
 #List of edcuation
 education: 
@@ -84,10 +94,7 @@ education:
     degree: "Bachelor Engineering"
     department: "Computer Engineering"
     # optional
-    #awards_achievements:
-    #  - "Scholarship"
-    # - "Dean's List (2015, 2016): Ut enim ad minim veniam"
-    # - "GPA: 3.8/4.0"
+    awards_achievements:
 
 #Optional section
 others:
@@ -101,5 +108,6 @@ others:
   #    - "Winner"
   - title: "Activities/Hobbies"
     bullets:
-      - "Parkrun Volunteer"
-      - "Leafs Fan"
+      - "Volunteer: I volunteer at Parkrun on Saturdays at 9am to help run a 5km run. I've helped with various different tasks like scanning barcodes, recording times, photography, and helping the runners stay on course as a marshal."
+      - "Running: I am training to run a 5k. I try to go on runs in the morning and am planning on running in Parkrun eventually."
+      - "Hockey fan: GO LEAFS GO! I'm a big Leafs fan. I am hoping they are able to win a cup in my lifetime as they have not won since 1967..."
