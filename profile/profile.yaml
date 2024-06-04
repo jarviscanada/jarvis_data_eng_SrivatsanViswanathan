@@ -1,0 +1,105 @@
+# Preferred name (Characters only)
+name: "Srivatsan Viswanathan"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_SrivatsanViswanathan
+
+# Introduce yourself, your academic and professional background.
+# What excites you about the software industry and your passion. At least 80 words
+summary: >
+  Hi, my name is Srivatsan. I am a computer engineering graduate from Toronto Metropolitan University. I enjoy building software 
+  applications to solve problems users have. One of my favourite projects I have worked on is Sweat Rewards. I developed a website 
+  where users can see if they have won a prize draws they entered in and direct them to support resources. The previous website was 
+  slow, difficult to search with, and not very mobile friendly. I decided to enhance user experience by creating a new website that 
+  would solve all these problems. I also created a script that would insert all the winners from an excel file to the database which
+  decreased manual labor. I'm looking for a software developer role where I can leverage my skills and experiences to contribute 
+  to impactful projects and make a positive difference. I am willing to learn anything I do not know and have a strong desire to 
+  continuously expand my knowledge and expertise.
+
+# Group your skills by level.
+# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+skills:
+  # At least 5 skills
+  proficient:
+    - Java
+    - JavaScript / TypeScript
+    - React
+    - NodeJs
+    - HTML & CSS
+    - Linux/Bash
+    - MongoDB
+    - RDBMS/SQL
+    - Agile/Scrum
+    - Git
+    - RESTful API
+  # At least 5 skills
+  competent:
+    - Python
+    - Tailwind
+    - Docker
+    - Spring Boot
+    - Google Cloud Platform
+  # At least 5 skills
+  familiar:
+    - Matlab
+    - C
+    - VHDL
+    - LaTeX
+    - Vite
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Cluster Monitor"
+    git_url: "/linux_sql"
+    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+
+# List of personal or academic projects
+# Feel free to add more projects
+highlighted_projects:
+    #project name
+  - name: "Web app for resturant"
+    #URL is optional
+    git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+  - name: "Machine Learning"
+    git_url:
+    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+
+#List of professional experience
+#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Software Developer"
+    company: "Jarvis"
+    duration: "2024-present"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: ""
+
+#List of edcuation
+education: 
+  - school_name: "Toronto Metropolitan University"
+    duration: "2018-2023"
+    degree: "Bachelor Engineering"
+    department: "Computer Engineering"
+    # optional
+    #awards_achievements:
+    #  - "Scholarship"
+    # - "Dean's List (2015, 2016): Ut enim ad minim veniam"
+    # - "GPA: 3.8/4.0"
+
+#Optional section
+others:
+    #category
+  - title: "Certificates"
+    #list of items
+    bullets:
+      - "Software Fundamentals"
+  #- title: "Awards"
+  #  bullets:
+  #    - "Winner"
+  - title: "Activities/Hobbies"
+    bullets:
+      - "Parkrun Volunteer"
+      - "Leafs Fan"
