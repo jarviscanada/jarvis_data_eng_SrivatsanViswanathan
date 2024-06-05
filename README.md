@@ -1,6 +1,6 @@
 # Srivatsan Viswanathan . Jarvis Consulting
 
-Hi, my name is Srivatsan. I am a computer engineering graduate from Toronto Metropolitan University. I enjoy building software  applications to solve problems users have. One of my favourite projects I have worked on is Sweat Rewards. I developed a website  where users can see if they have won a prize draws they entered in and direct them to support resources. The previous website was  slow, difficult to search with, and not very mobile friendly. I decided to enhance user experience by creating a new website that  would solve all these problems. I also created a script that would insert all the winners from an excel file to the database which decreased manual labor. I'm looking for a software developer role where I can leverage my skills and experiences to contribute  to impactful projects and make a positive difference. I am willing to learn anything I do not know and have a strong desire to  continuously expand my knowledge and expertise.
+Hi, my name is Srivatsan. I am a computer engineering graduate from Toronto Metropolitan University. I enjoy building software  applications to solve problems users have. One of my favourite projects I have worked on is Sweat Rewards. I developed a website  where users can see if they won a prize draw they entered in and direct them to support resources. The previous website was  slow, difficult to search with, and not very mobile friendly. I decided to enhance user experience by creating a new website that  would solve all these problems. I also created a script that would insert all the winners from an excel file to the database which decreased manual labor. I'm looking for a software developer role where I can leverage my skills and experiences to contribute  to impactful projects and make a positive difference. 
 
 
 ## Skills
@@ -37,11 +37,10 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_SrivatsanV
 
 
 ## Education
-**Toronto Metropolitan University (2018-2023)**, Bachelor Engineering, Computer Engineering
+**Toronto Metropolitan University (2018-2023)**, Bachelor of Engineering, Computer Engineering
 
 
 ## Miscellaneous
-- Software Fundamentals
 - Volunteer: I volunteer at Parkrun on Saturdays at 9am to help run a 5km run. I've helped with various different tasks like scanning barcodes, recording times, photography, and helping the runners stay on course as a marshal.
-- Running: I am training to run a 5k. I try to go on runs in the morning and am planning on running in Parkrun eventually.
+- Running: I am training to run a 5k. I go on runs in the morning and am planning on running in Parkrun eventually.
 - Hockey fan: GO LEAFS GO! I'm a big Leafs fan. I am hoping they are able to win a cup in my lifetime as they have not won since 1967...
