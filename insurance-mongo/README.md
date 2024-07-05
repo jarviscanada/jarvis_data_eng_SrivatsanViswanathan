@@ -54,6 +54,7 @@ in `PersonRepository`
 - Swagger was used for API documentation
 
 ### Architecture
+![Insurance API Diagram](./assets/insurance-mongo.png)
 
 ## Testing
 - Swagger was used as documentation to help with 
