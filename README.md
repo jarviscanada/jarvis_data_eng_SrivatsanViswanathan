@@ -1,6 +1,6 @@
 # Srivatsan Viswanathan . Jarvis Consulting
 
-Hi, my name is Srivatsan. I am a computer engineering graduate from Toronto Metropolitan University. I enjoy building software  applications to solve problems users have. One of my favourite projects I have worked on is Sweat Rewards. I developed a website  where users can see if they won a prize draw they entered in and direct them to support resources. The previous website was  slow, difficult to search with, and not very mobile friendly. I decided to enhance user experience by creating a new website that  would solve all these problems. I also created a script that would insert all the winners from an excel file to the database which decreased manual labor. I'm looking for a software developer role where I can leverage my skills and experiences to contribute  to impactful projects and make a positive difference. 
+Hi, my name is Srivatsan. I am a computer engineering graduate from Toronto Metropolitan University with a strong passion  for software development and DevOps practices. One of my favorite projects is Sweat Rewards, where I developed a website that  allows users to check their prize draw results and access support resources. I am now seeking a DevOps role where I can apply  my skills and experiences to contribute to impactful projects and make a positive difference.
 
 
 ## Skills
@@ -17,6 +17,8 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_SrivatsanV
 
 
 **Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SrivatsanViswanathan/tree/master/linux_sql)]: Developed a Linux Cluster Monitoring App to record hardware specifications and monitor resource usages for each node in real time to help the Jarvis Linux Cluster Administration (LCA) team manage their Linux cluster environment. The product is built using Linux bash scripts to collect the data, PostgreSQL to store the data, docker for hosting the database, and Git for version control. The application logs the hardware usage every minute and persists it into the database.
+
+**RDBMS & SQL** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SrivatsanViswanathan/tree/master/sql)]: Wrote queries to obtain information from a community centre. Accessed data related to various community operations like membership information, facility management, and booking management. The product is built using PostgreSQL to store the data and docker for hosting the database.
 
 
 ## Highlighted Projects
