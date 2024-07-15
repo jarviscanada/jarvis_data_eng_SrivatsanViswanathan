@@ -38,9 +38,14 @@
       "name": "Cluster Monitor"
     },
     {
-      "description": "Wrote queries to obtain information from a community centre. Accessed data related to various community operations like membership information, facility management, and booking management. The product is built using PostgreSQL to store the data and docker for hosting the database.",
-      "git_url": "/sql",
-      "name": "RDBMS \u0026 SQL"
+      "description": "Developed an Insurance API that allows you to manage and retrieve information related to customers vehicle insurance for support and business decisions. For example, seeing the amount of insured drivers in a city and their names. The product is built using Java Spring Boot to create the API endpoints, Maven for dependencies, Swagger for API documentation, MongoDB to store the data, and Git for version control.",
+      "git_url": "/insurance-mongo",
+      "name": "Insurance API"
+    },
+    {
+      "description": "Created three dashboards to help visualize key metrics and trends. Beverages Dashboard analyzes the performance of various beverages in the United States, including units sold, average price, total sales, sales by state, and profit analysis to help stakeholders make informed business decisions. Data Professionals Survey Dashboard breaks down survey responses from data professionals highlighting job roles, satisfaction levels, career challenges, and preferred programming languages helping current professionals and aspiring students to gain an understanding of the current state of the industry. Stocks Dashboard visualizes key stock statistics like price metrics, market cap, dividend yield, and historical trends allowing investors and analysts to track stock performance.",
+      "git_url": "/power_bi",
+      "name": "Power BI Dashboards"
     }
   ],
   "name": "Srivatsan Viswanathan",
@@ -57,7 +62,7 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Developed software applications for Jarvis using technologies like  Bash, Git, PostgreSQL, and Docker. Worked collaboratively with a team of developers in an Agile environment. Implemented automation scripts, optimized PostgreSQL databases, and containerized applications with Docker for efficient deployment. Ensured code quality through peer reviews and continuous integration contributing to a culture of continuous improvement and high performance.",
+      "description": "Developed software applications for Jarvis using technologies like Java, Spring, PostreSQL, Docker, Bash, and Git. Worked collaboratively with a team of developers in an Agile environment. Implemented automation scripts, optimized PostgreSQL databases, and containerized applications with Docker for efficient deployment. Ensured code quality through peer reviews and continuous integration contributing to a culture of continuous improvement and high performance.",
       "duration": "2024-present",
       "title": "Software Developer"
     },
@@ -74,7 +79,8 @@
       "Tailwind",
       "Docker",
       "Spring Boot",
-      "Google Cloud Platform"
+      "Google Cloud Platform",
+      "Power BI"
     ],
     "familiar": [
       "Matlab",
@@ -90,8 +96,8 @@
       "NodeJs",
       "HTML \u0026 CSS",
       "Linux/Bash",
-      "MongoDB",
-      "RDBMS/SQL",
+      "RDBMS/SQL (SQLite, PostgreSQL)",
+      "NoSQL (MongoDB)",
       "Agile/Scrum",
       "Git",
       "RESTful API"

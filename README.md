@@ -5,9 +5,9 @@ Hi, my name is Srivatsan. I am a computer engineering graduate from Toronto Metr
 
 ## Skills
 
-**Proficient:** Java, JavaScript / TypeScript, React, NodeJs, HTML & CSS, Linux/Bash, MongoDB, RDBMS/SQL, Agile/Scrum, Git, RESTful API
+**Proficient:** Java, JavaScript / TypeScript, React, NodeJs, HTML & CSS, Linux/Bash, RDBMS/SQL (SQLite, PostgreSQL), NoSQL (MongoDB), Agile/Scrum, Git, RESTful API
 
-**Competent:** Python, Tailwind, Docker, Spring Boot, Google Cloud Platform
+**Competent:** Python, Tailwind, Docker, Spring Boot, Google Cloud Platform, Power BI
 
 **Familiar:** Matlab, C, VHDL, LaTeX, Vite
 
@@ -18,7 +18,9 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_SrivatsanV
 
 **Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SrivatsanViswanathan/tree/master/linux_sql)]: Developed a Linux Cluster Monitoring App to record hardware specifications and monitor resource usages for each node in real time to help the Jarvis Linux Cluster Administration (LCA) team manage their Linux cluster environment. The product is built using Linux bash scripts to collect the data, PostgreSQL to store the data, docker for hosting the database, and Git for version control. The application logs the hardware usage every minute and persists it into the database.
 
-**RDBMS & SQL** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SrivatsanViswanathan/tree/master/sql)]: Wrote queries to obtain information from a community centre. Accessed data related to various community operations like membership information, facility management, and booking management. The product is built using PostgreSQL to store the data and docker for hosting the database.
+**Insurance API** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SrivatsanViswanathan/tree/master/insurance-mongo)]: Developed an Insurance API that allows you to manage and retrieve information related to customers vehicle insurance for support and business decisions. For example, seeing the amount of insured drivers in a city and their names. The product is built using Java Spring Boot to create the API endpoints, Maven for dependencies, Swagger for API documentation, MongoDB to store the data, and Git for version control.
+
+**Power BI Dashboards** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SrivatsanViswanathan/tree/master/power_bi)]: Created three dashboards to help visualize key metrics and trends. Beverages Dashboard analyzes the performance of various beverages in the United States, including units sold, average price, total sales, sales by state, and profit analysis to help stakeholders make informed business decisions. Data Professionals Survey Dashboard breaks down survey responses from data professionals highlighting job roles, satisfaction levels, career challenges, and preferred programming languages helping current professionals and aspiring students to gain an understanding of the current state of the industry. Stocks Dashboard visualizes key stock statistics like price metrics, market cap, dividend yield, and historical trends allowing investors and analysts to track stock performance.
 
 
 ## Highlighted Projects
@@ -33,7 +35,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_SrivatsanV
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2024-present)**: Developed software applications for Jarvis using technologies like  Bash, Git, PostgreSQL, and Docker. Worked collaboratively with a team of developers in an Agile environment. Implemented automation scripts, optimized PostgreSQL databases, and containerized applications with Docker for efficient deployment. Ensured code quality through peer reviews and continuous integration contributing to a culture of continuous improvement and high performance.
+**Software Developer, Jarvis (2024-present)**: Developed software applications for Jarvis using technologies like Java, Spring, PostreSQL, Docker, Bash, and Git. Worked collaboratively with a team of developers in an Agile environment. Implemented automation scripts, optimized PostgreSQL databases, and containerized applications with Docker for efficient deployment. Ensured code quality through peer reviews and continuous integration contributing to a culture of continuous improvement and high performance.
 
 **Freelance, Sweatcoin (Jan 2024 - Apr 2024)**: Designed and created a web application that allows users to track their winnings for prize draws they have entered in. Utilized React for the front end, MongoDB to store the winners, and Node and Express.js for the backend. Created a script to persist all the winners from an excel file to MongoDB. Optimized the search functionality by reducing the search time by 92% and reduced website resource by 66%.
 
