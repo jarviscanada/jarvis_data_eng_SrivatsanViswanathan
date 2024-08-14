@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: linux-cluster-db
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: linux-cluster-db
+  template:
+    metadata:
+      labels:
+        app: linux-cluster-db
+    spec:
+      containers:
+        - name: linux-cluster-db
+          image: zvoks/linux_cluster_monitoring
+          ports:
+            - containerPort: 5432
+          env:
+            - name: POSTGRES_PASSWORD
+              value: password
+            - name: POSTGRES_DB
+              value: host_agent
+            - name: POSTGRES_USER
+              value: postgres

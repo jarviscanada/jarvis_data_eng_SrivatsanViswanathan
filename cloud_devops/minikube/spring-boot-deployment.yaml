@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: linux-cluster-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: linux-cluster-api
+  template:
+    metadata:
+      labels:
+        app: linux-cluster-api
+    spec:
+      containers:
+        - name: linux-cluster-api
+          image: zvoks/linux-cluster-api
+          ports:
+            - containerPort: 8080
+          env:
+            - name: SPRING_DATASOURCE_URL
+              value: jdbc:postgresql://linux-cluster-db:5432/host_agent
+            - name: SPRING_DATASOURCE_USERNAME
+              value: postgres
+            - name: SPRING_DATASOURCE_PASSWORD
+              value: password
